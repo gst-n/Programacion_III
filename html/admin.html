@@ -1,0 +1,101 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Store UTN</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h3>Panel de administración</h3>
+            <a href="./index.html">Volver a la tienda</a>
+        </header>
+        <table border="2px">
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>imagen</th>
+                    <th>nombre</th>
+                    <th>categoria</th>
+                    <th>precio</th>
+                    <th>stock</th>
+                    <th>acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>0032</td>
+                    <td><img width="50" height="50" src="./assets/Imagen pegada (2).png" alt=""></td>
+                    <td>Lorem ipsum dolor sit.</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis exercitationem necessitatibus voluptatum saepe commodi eius mollitia iste hic suscipit voluptatibus porro autem quaerat ratione doloremque. Et laboriosam </td>
+                    <td>$23223</td>
+                    <td>142</td>
+                    <td>545</td>
+                </tr>
+                            <tr>
+                    <td>0032</td>
+                    <td><img width="50" height="50" src="./assets/Imagen pegada (2).png" alt=""></td>
+                    <td>Lorem ipsum dolor sit.</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis exercitationem necessitatibus voluptatum saepe commodi eius mollitia iste hic suscipit voluptatibus porro autem quaerat ratione doloremque. Et laboriosam </td>
+                    <td>$23223</td>
+                    <td>142</td>
+                    <td>4343</td>
+                </tr>
+                            <tr>
+                    <td>0032</td>
+                    <td><img width="50" height="50" src="./assets/Imagen pegada (2).png" alt="imagen de bebidass"></td>
+                    <td>Lorem ipsum dolor sit.</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis exercitationem necessitatibus voluptatum saepe commodi eius mollitia iste hic suscipit voluptatibus porro autem quaerat ratione doloremque. Et laboriosam </td>
+                    <td>$23223</td>
+                    <td>142</td>
+                    <td>442</td>
+                </tr>
+                            <tr>
+                    <td>0032</td>
+                    <td><img width="50" height="50" src="./assets/Imagen pegada (2).png" alt="Imagen de una Bebidas"></td>
+                    <td>Lorem ipsum dolor sit.</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis exercitationem necessitatibus voluptatum saepe commodi eius mollitia iste hic suscipit voluptatibus porro autem quaerat ratione doloremque. Et laboriosam </td>
+                    <td>$23223</td>
+                    <td>142</td>
+                    <td>232</td>
+                </tr>
+                            <tr>
+                    <td>0032</td>
+                    <td><img width="50" height="50" src="./assets/Imagen pegada (2).png" alt=""></td>
+                    <td>Lorem ipsum dolor sit.</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis exercitationem necessitatibus voluptatum saepe commodi eius mollitia iste hic suscipit voluptatibus porro autem quaerat ratione doloremque. Et laboriosam </td>
+                    <td>$23223</td>
+                    <td>142</td>
+                    <td>1313</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</main>
+<div>
+    <form>
+      <div>
+        <label for="nombre">Nombre del producto:</label>
+        <input type="text" id="nombre" name="nombre" required placeholder="Ej: Mouse inalámbrico Logitech">
+      </div>
+      
+      <div>
+        <label for="precio">Precio ($):</label>
+        <input type="number" id="precio" name="precio" step="0.01" min="0" required placeholder="29.99">
+      </div>
+      
+      <div>
+        <label for="categoria">Categoría:</label>
+        <select id="categoria" name="categoria" required>
+          <option value="">-- Seleccionar categoría --</option>
+          <option value="Electronica">Electrónica</option>
+          <option value="Hogar">Hogar</option>
+          <option value="Ropa">Ropa</option>
+
+        </select>
+      </div>
+      
+      <button type="submit">Agregar Producto</button>
+    </form>
+</div>
+</html>
